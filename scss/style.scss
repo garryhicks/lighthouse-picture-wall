@@ -20,6 +20,8 @@ body {
     .gray-out {
       width: 150px;
       height: 150px;
+      border: 2px solid #000;
+      border-radius: 6px;
 
       &:hover {
         filter: grayscale(100%);
@@ -28,6 +30,8 @@ body {
 
       div.name {
         text-align: center;
+        box-shadow: 5px 5px 5px #888888;
+        
       } 
     }
   }

@@ -13,9 +13,12 @@ body {
     padding: 6px; }
     #team-members .member .gray-out {
       width: 150px;
-      height: 150px; }
+      height: 150px;
+      border: 2px solid #000;
+      border-radius: 6px; }
       #team-members .member .gray-out:hover {
         filter: grayscale(100%);
         -webkit-filter: grayscale(100%); }
       #team-members .member .gray-out div.name {
-        text-align: center; }
+        text-align: center;
+        box-shadow: 5px 5px 5px #888888; }
