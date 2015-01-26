@@ -11,8 +11,11 @@ body {
     /*border: 1px solid gray;*/
     margin: 10px;
     padding: 6px; }
-    #team-members .member .img {
+    #team-members .member .gray-out {
       width: 150px;
       height: 150px; }
-      #team-members .member .img div.name {
+      #team-members .member .gray-out:hover {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%); }
+      #team-members .member .gray-out div.name {
         text-align: center; }
